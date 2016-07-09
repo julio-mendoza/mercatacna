@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: mt-registry-srv
+  profiles:
+    active: dev
