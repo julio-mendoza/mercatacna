@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: mt-config-srv
+  profiles:
+    active: dev
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/julio-mendoza/mercatacna.git
+          username: '{cipher}78bb27498ea9ad186a69bafd9bf4db6e90500b68bb5614614e09cef0eebfa99a0c988477650d1f776db8fb645b459b25'
+          password: '{cipher}72b1c79790abc00d868676e73b7144595b21921b72b601a30ef28ed3a5e2d4be'
+
+encrypt:
+  key: mys3cret
